@@ -167,7 +167,13 @@ app.store = {
         // 清空按钮事件
         $("#clear").addEventListener('click', function (e) {
             store.clear();
-            $('#content').remove();
+            var content_ele = $('#content');
+            // 若是点击了清空按钮，则remove所有的子元素
+            if (content_ele) {
+                while (content_ele.hasChildNodes()) {
+                    content_ele.removeChild(content_ele.firstChild);
+                }
+            }
         })
 
         //移动监听
