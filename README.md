@@ -4,4 +4,6 @@
 ### 概述
 功能： 创建、拖动、删除、存储便签  
 存储： 便签的存储采用的是浏览器的localStorage  
-JS脚本采用纯JavaScript编写
+JS脚本采用纯JavaScript编写  
+
+### 在线预览地址： https://zwm-coder.github.io/StickyNotes/html/index.html
